@@ -126,8 +126,8 @@
 <script>
     import datePicker from 'vue-bootstrap-datetimepicker';
 
-    import {Ziggy} from 'ziggy-js';
-    import route from 'ziggy-js/src/js/route';
+    import route from 'ziggy-route';
+    import {Ziggy} from 'ziggy';
     import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
     window.Ziggy = Ziggy;
